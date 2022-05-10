@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const FeaturesSection = () => {
   return (
-    <div className="bg-main md:min-h-avg">
-      <div className="c-large">
-        <div className="order-2 lg:order-1 -mb-28 pt-20">
+    <div className="bg-main">
+      <div className="c-large flex">
+        <div className="order-2 lg:order-1 mt-28 -mb-32">
           <Image
             src="/photos/features-phone.png"
             alt="Appstore"
@@ -16,7 +16,7 @@ const FeaturesSection = () => {
             responsive="true"
           />
         </div>
-        <div>
+        <div className="order-1 lg:order-2">
           <p>features</p>
         </div>
       </div>

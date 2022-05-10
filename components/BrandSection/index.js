@@ -6,14 +6,14 @@ import Image from "next/image";
 const BrandSection = () => {
   return (
     <div className="c-large flex flex-col items-center lg:flex-row md:min-h-[calc(100vh-4rem)]">
-      <div className="c-small order-2 lg:order-1">
-        <h1 className="text-6xl text-main font-bold leading-big">
+      <div className={styles.left}>
+        <h1 className="text-5xl xl:text-6xl text-main font-bold">
           Let’s Use & Connect
         </h1>
-        <h2 className="text-4xl font-medium mt-1 mb-8">
+        <h2 className="text-3xl xl:text-4xl font-medium mt-4 mb-8 leading-10">
           The Best App For Your Event
         </h2>
-        <p className="mb-28 text-2xl text-main-dark leading-8">
+        <p className="mb-28 text-xl xl:text-2xl text-main-dark leading-8">
           Useco kullanıcıları özel veya genel etkinlikler oluşturabiliyor,
           etkinlikleri hakkındaki bildirimleri çevredeki Useco kullanıcılarına
           gönderebiliyor ve üstüne üstlük bunların hepsini ücretsiz olarak

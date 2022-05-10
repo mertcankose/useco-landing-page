@@ -37,9 +37,13 @@ text-black
 .menuItem {
   @apply
   text-main-dark
-  font-semibold
+  font-medium
+  text-xl
   px-1
   py-1
+  hover:text-main
+  transition-all
+  duration-300
 
 }
 

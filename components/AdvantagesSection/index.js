@@ -4,7 +4,7 @@ import cn from "classnames";
 
 const AdvantagesSection = () => {
   return (
-    <div className={styles.container}>
+    <div className="mt-64">
       <p>Advantage</p>
     </div>
   );

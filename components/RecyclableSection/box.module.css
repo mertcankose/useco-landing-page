@@ -2,11 +2,8 @@
    @apply
    flex 
    flex-col
-
-   justify-center
    px-12
    pt-20
-   pb-24
    max-w-sm
    h-big
    bg-white
