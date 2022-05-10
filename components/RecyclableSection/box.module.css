@@ -1,0 +1,16 @@
+.box {
+   @apply
+   flex 
+   flex-col
+
+   justify-center
+   px-12
+   pt-20
+   pb-24
+   max-w-sm
+   h-big
+   bg-white
+}
+.box {
+    box-shadow: 6px 12px 24px rgba(20, 80, 250, 0.4);
+}

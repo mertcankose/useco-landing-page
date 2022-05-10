@@ -10,26 +10,6 @@ import TeamSection from "../components/TeamSection";
 import RecyclableSection from "../components/RecyclableSection";
 import Footer from "../components/Footer";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Useco</title>
-        <meta name="description" content="Useco" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <div className="">
-        <Header />
-        <BrandSection title="mertcan" />
-        <FeaturesSection />
-        <AdvantagesSection />
-        <ScanSection />
-        <TeamSection />
-        <RecyclableSection />
-        <Footer />
-        <div></div>
-      </div>
-    </div>
-  );
+export default function Blog() {
+  return <div className={styles.container}>Blog</div>;
 }
