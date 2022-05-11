@@ -9,7 +9,7 @@ const FooterSection = () => {
       <a href="/" className="flex justify-center items-center">
         <LogoUseco width="153" height="40" />
       </a>
-      <p>Copyright © 2022 Useco All rights reserved.</p>
+      <p>Copyright © {new Date().getFullYear()} Useco All rights reserved.</p>
     </div>
   );
 };

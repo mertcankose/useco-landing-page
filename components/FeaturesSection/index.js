@@ -7,9 +7,9 @@ import {Brain,Money, Finger, Connection} from "../icons"
 
 const FeaturesSection = () => {
   return (
-    <div className="bg-main">
-      <div className="c-large flex flex-col xl:flex-row justify-between items-center pt-32 pb-32">
-        <div className="order-2 xl:order-1 flex items-center justify-end">
+    <div id="feature" className="bg-main xl:h-screen">
+      <div className="c-large flex flex-col xl:flex-row justify-between items-center xl:items-start pt-32">
+        <div className="order-2 xl:order-1 flex items-center justify-end -mb-24">
           <Image
             src="/photos/features-phone.png"
             alt="Appstore"
@@ -18,9 +18,9 @@ const FeaturesSection = () => {
             responsive="true"
           />
         </div>
-        <div className="order-1 xl:order-2">
+        <div className="flex flex-col order-1 xl:order-2 xl:-mb-32">
           <h4 className="text-white leading-8 text-2xl">Features</h4>
-          <p className="text-white text-5xl leading-mediumup font-bold mt-5 mb-24 max-w-middle">Do you want to learn Useco’s DNA?</p>
+          <p className="text-white text-5xl leading-mediumup font-bold mt-5 mb-12 max-w-middle">Do you want to learn Useco’s DNA?</p>
           <div className="flex flex-col">
             <div className="flex flex-col sm:flex-row gap-8 mb-20">
               <Box logo={<Brain width="86" height="86" />} title="Yenilikçi Sistem" text="Tek kullanımlık kartviziti ortadan kaldırır." />

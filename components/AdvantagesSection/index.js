@@ -15,7 +15,7 @@ import {
 
 const AdvantagesSection = () => {
   return (
-    <div className="c-large mt-64 flex flex-col">
+    <div id="advantages" className="c-large mt-64 flex flex-col scroll-m-4">
       <div className="flex flex-col mx-auto">
         <h4 className="text-main-dark text-center font-medium text-2xl leading-8">
           Advantages
@@ -27,8 +27,8 @@ const AdvantagesSection = () => {
           Etkinlik içi ve etkinlik dışında hızlı etkileşim sağlanır.
         </p>
       </div>
-      <div className="flex mt-10 justify-between">
-        <div className="flex gap-10">
+      <div className="flex flex-col xl:flex-row mt-10 justify-between">
+        <div className="flex flex-col md:flex-row gap-10 justify-center items-center order-2 xl:order-1">
           <div className="flex flex-col">
             <h4 className="text-main text-2xl font-bold mb-12">
               Personal Advantages
@@ -52,7 +52,7 @@ const AdvantagesSection = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-10 md:mt-0">
             <h4 className="text-main text-2xl font-bold mb-12">
               Community Advantages
             </h4>
@@ -76,7 +76,7 @@ const AdvantagesSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center order-1 xl:order-2 mb-20 xl:mb-0">
           <Image
             src="/photos/advantages-phone.png"
             alt="Appstore"
@@ -87,8 +87,8 @@ const AdvantagesSection = () => {
         </div>
       </div>
       <div className="flex flex-col gap-11 mt-72 mb-44 max-w-4xl mx-auto">
-        <h4 className="text-main text-4xl font-bold text-center">More Than Unlimited, Unlimited Fun</h4>
-        <p className="text-main-dark text-2xl font-normal text-center">Useco kullanıcıların etkinliklerden olabildiğince verim alması için tasarlanmış bildirim sistemi ile çevrenizde bulunan sınırsız kategoride etkinliklerden ilgi alanınızda olanları size bildiriyor, bu sayede tek bir etkinliği bile kaçırmıyorsunuz.</p>
+        <h4 className="text-main text-4xl font-bold text-left md:text-center leading-medium">More Than Unlimited, Unlimited Fun</h4>
+        <p className="text-main-dark text-2xl font-normal text-left md:text-center leading-8">Useco kullanıcıların etkinliklerden olabildiğince verim alması için tasarlanmış bildirim sistemi ile çevrenizde bulunan sınırsız kategoride etkinliklerden ilgi alanınızda olanları size bildiriyor, bu sayede tek bir etkinliği bile kaçırmıyorsunuz.</p>
       </div>
     </div>
   );

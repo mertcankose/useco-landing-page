@@ -27,22 +27,22 @@ const HeaderSection = () => {
 
       {/* desktop */}
       <div className="hidden md:flex items-center gap-6">
-        <a href="#Home" className={cn(styles.menuItem, styles.desktopMenuItem)}>
+        <a href="#home" className={cn(styles.menuItem, styles.desktopMenuItem)}>
           Home
         </a>
         <a
-          href="#Feature"
+          href="#feature"
           className={cn(styles.menuItem, styles.desktopMenuItem)}
         >
           Feature
         </a>
         <a
-          href="#Advantages"
+          href="#advantages"
           className={cn(styles.menuItem, styles.desktopMenuItem)}
         >
           Advantages
         </a>
-        <a href="#Scan" className={cn(styles.menuItem, styles.desktopMenuItem)}>
+        <a href="#scan" className={cn(styles.menuItem, styles.desktopMenuItem)}>
           Scan & Go
         </a>
       </div>
@@ -55,22 +55,22 @@ const HeaderSection = () => {
           isShowMobileMenu && styles.mobileMenuOpen
         )}
       >
-        <a href="#Home" className={cn(styles.menuItem, styles.mobileMenuItem)}>
+        <a href="#home" className={cn(styles.menuItem, styles.mobileMenuItem)}>
           Home
         </a>
         <a
-          href="#Feature"
+          href="#feature"
           className={cn(styles.menuItem, styles.mobileMenuItem)}
         >
           Feature
         </a>
         <a
-          href="#Advantages"
+          href="#advantages"
           className={cn(styles.menuItem, styles.mobileMenuItem)}
         >
           Advantages
         </a>
-        <a href="#Scan" className={cn(styles.menuItem, styles.mobileMenuItem)}>
+        <a href="#scan" className={cn(styles.menuItem, styles.mobileMenuItem)}>
           Scan & Go
         </a>
       </div>

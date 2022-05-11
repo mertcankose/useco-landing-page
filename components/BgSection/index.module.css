@@ -4,7 +4,12 @@
 }
 
 .image {
-    background:url("../../public/photos/categories.png") repeat-x 0 / 100% auto;
-	height:498px; /* this value is not important, just not zero */
+    background:url("../../public/photos/categories.png");
+	background-size: cover;
 	animation: move 15s linear infinite ;
+}
+.image {
+	@apply
+	h-loopimgsmall 
+	sm:h-loopimg
 }

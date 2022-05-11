@@ -19,6 +19,8 @@ module.exports = {
       },
       height: {
         big: "36rem",
+        loopimg:"31.125rem",
+        loopimgsmall:"25.75rem"
       },
       spacing: {
         'medium':'2.125rem'
