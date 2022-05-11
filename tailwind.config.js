@@ -13,15 +13,22 @@ module.exports = {
         "main-dark": "#171717",
       },
       lineHeight: {
+        medium:"3.3rem",
+        mediumup:"4.125rem",
         big: "6rem",
       },
       height: {
         big: "36rem",
       },
+      spacing: {
+        'medium':'2.125rem'
+      },
+      maxWidth: {
+        'custom': '83.625rem',
+        'middle': '30.25rem'
+      }
     },
-    minHeight: {
-      avg: "90vh",
-    },
+
   },
   plugins: [],
 };

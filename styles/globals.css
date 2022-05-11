@@ -4,16 +4,14 @@
 
 @layer base {
   @font-face {
-    font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('/fonts/OpenSans-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
 
   html {
-    font-family: 'Open Sans';
+    font-family: 'Red Hat Display', sans-serif;
     font-weight:400;    
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
@@ -42,7 +40,7 @@ img {
   }
 
   .c-large {
-    @apply max-w-screen-xl mx-auto px-8;
+    @apply max-w-custom mx-auto px-6;
   }
 
   .c-large-inside {

@@ -48,7 +48,6 @@ const HeaderSection = () => {
         <a href="#Scan" className={cn(styles.menuItem, styles.desktopMenuItem)}>
           Scan & Go
         </a>
-        <p>en</p>
       </div>
 
       {/* mobile */}
@@ -80,7 +79,6 @@ const HeaderSection = () => {
         <a href="#Scan" className={cn(styles.menuItem, styles.mobileMenuItem)}>
           Scan & Go
         </a>
-        <p>en</p>
       </div>
 
       <button
