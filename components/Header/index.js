@@ -42,9 +42,6 @@ const HeaderSection = () => {
         >
           Advantages
         </a>
-        <a href="#Team" className={cn(styles.menuItem, styles.desktopMenuItem)}>
-          Team
-        </a>
         <a href="#Scan" className={cn(styles.menuItem, styles.desktopMenuItem)}>
           Scan & Go
         </a>
@@ -72,9 +69,6 @@ const HeaderSection = () => {
           className={cn(styles.menuItem, styles.mobileMenuItem)}
         >
           Advantages
-        </a>
-        <a href="#Team" className={cn(styles.menuItem, styles.mobileMenuItem)}>
-          Team
         </a>
         <a href="#Scan" className={cn(styles.menuItem, styles.mobileMenuItem)}>
           Scan & Go

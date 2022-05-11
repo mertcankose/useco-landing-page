@@ -1,0 +1,10 @@
+@keyframes move{
+	0%{background-position: 0 0;}
+	100%{background-position: 100vw 0;}
+}
+
+.image {
+    background:url("../../public/photos/categories.png") repeat-x 0 / 100% auto;
+	height:498px; /* this value is not important, just not zero */
+	animation: move 15s linear infinite ;
+}

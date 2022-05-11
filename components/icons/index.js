@@ -1,9 +1,16 @@
 export { default as Brain } from "./Brain";
+export { default as Card } from "./Card";
 export { default as Connection } from "./Connection";
 export { default as EcoFriendly } from "./EcoFriendly";
+export { default as Faces } from "./Faces";
 export { default as Finger } from "./Finger";
 export { default as LogoUseco } from "./LogoUseco";
 export { default as Maintainability } from "./Maintainability";
 export { default as Money } from "./Money";
+export { default as PeopleForbidden } from "./PeopleForbidden";
+export { default as People } from "./People";
+export { default as RecyCard } from "./RecyCard";
 export { default as Recyclable } from "./Recyclable";
 export { default as Renewability } from "./Renewability";
+export { default as Tasks } from "./Tasks";
+export { default as Touch } from "./Touch";

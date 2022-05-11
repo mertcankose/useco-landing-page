@@ -5,8 +5,8 @@ import Header from "../components/Header";
 import BrandSection from "../components/BrandSection";
 import FeaturesSection from "../components/FeaturesSection";
 import AdvantagesSection from "../components/AdvantagesSection";
+import BgSection from "../components/BgSection";
 import ScanSection from "../components/ScanSection";
-import TeamSection from "../components/TeamSection";
 import RecyclableSection from "../components/RecyclableSection";
 import Footer from "../components/Footer";
 
@@ -24,8 +24,8 @@ export default function Home() {
         <BrandSection title="mertcan" />
         <FeaturesSection />
         <AdvantagesSection />
+        <BgSection/>
         <ScanSection />
-        <TeamSection />
         <RecyclableSection />
         <Footer />
         <div></div>

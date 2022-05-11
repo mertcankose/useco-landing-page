@@ -11,7 +11,7 @@ import Box from "./box";
 
 const RecyclableSection = () => {
   return (
-    <div className="flex flex-col items-center gap-16">
+    <div className="flex flex-col items-center gap-16 z-40 relative">
       <h4 className="text-5xl text-main font-bold">Useco cares the world!</h4>
       <Recyclable width="124" height="124" />
       <div className="flex gap-6 justify-center flex-wrap">

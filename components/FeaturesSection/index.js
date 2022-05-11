@@ -7,14 +7,14 @@ import {Brain,Money, Finger, Connection} from "../icons"
 
 const FeaturesSection = () => {
   return (
-    <div className="bg-main pt-28">
-      <div className="c-large flex flex-col xl:flex-row justify-between">
-        <div className="order-2 xl:order-1 -mb-44 flex justify-end items-center">
+    <div className="bg-main">
+      <div className="c-large flex flex-col xl:flex-row justify-between items-center pt-32 pb-32">
+        <div className="order-2 xl:order-1 flex items-center justify-end">
           <Image
             src="/photos/features-phone.png"
             alt="Appstore"
-            width={412}
-            height={825}
+            width={402}
+            height={802}
             responsive="true"
           />
         </div>
