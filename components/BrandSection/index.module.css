@@ -5,6 +5,7 @@
 .left {
     @apply
     order-2 lg:order-1
+    max-w-2xl
 
 }
 .left {

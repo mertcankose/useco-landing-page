@@ -1,13 +1,18 @@
 .box {
-   @apply
-   flex 
-   flex-col
-   px-12
-   pt-20
-   max-w-sm
-   h-big
-   bg-white
-}
-.box {
-    box-shadow: 6px 12px 24px rgba(20, 80, 250, 0.4);
-}
+    @apply
+    flex 
+    flex-col
+    px-12
+    pt-10 md:pt-20
+    max-w-sm
+    h-big
+    bg-white
+    transition-all
+    duration-300
+ }
+ .box {
+     box-shadow: 4px 8px 12px rgba(20, 80, 250, 0.4);
+ }
+ .box:hover {
+     box-shadow: 6px 12px 24px rgba(20, 80, 250, 0.4);
+ }

@@ -31,16 +31,16 @@ const HeaderSection = () => {
           Home
         </a>
         <a
-          href="#feature"
+          href="#features"
           className={cn(styles.menuItem, styles.desktopMenuItem)}
         >
-          Feature
+          Features
         </a>
         <a
-          href="#advantages"
+          href="#acquisitions"
           className={cn(styles.menuItem, styles.desktopMenuItem)}
         >
-          Advantages
+          Acquisitions
         </a>
         <a href="#scan" className={cn(styles.menuItem, styles.desktopMenuItem)}>
           Scan & Go
@@ -59,16 +59,16 @@ const HeaderSection = () => {
           Home
         </a>
         <a
-          href="#feature"
+          href="#features"
           className={cn(styles.menuItem, styles.mobileMenuItem)}
         >
-          Feature
+          Features
         </a>
         <a
-          href="#advantages"
+          href="#acquisitions"
           className={cn(styles.menuItem, styles.mobileMenuItem)}
         >
-          Advantages
+          Acquisitions
         </a>
         <a href="#scan" className={cn(styles.menuItem, styles.mobileMenuItem)}>
           Scan & Go
